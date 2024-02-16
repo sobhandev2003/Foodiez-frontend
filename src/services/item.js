@@ -1,6 +1,6 @@
 import Alert from "../component/Alert";
 import { setItem } from "../fetures/category";
-import { baseUrl } from "./baseUrl";
+const baseUrl=process.env.REACT_APP_BASE_URL;
 export const createNewItem = async (authToken, id, itemDetails) => {
     const formData = new FormData();
     formData.append("name", itemDetails.name);

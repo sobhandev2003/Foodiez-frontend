@@ -1,7 +1,7 @@
 import Alert from "../component/Alert";
 import { fetchLoginBuyerDetails } from "./Buyer";
 import { fetchCurrentSeller } from "./Seller";
-import { baseUrl } from "./baseUrl";
+const baseUrl=process.env.REACT_APP_BASE_URL;
 
 export const updateProfilePhoto=(user,authToken,photo,setIsProfilePhotoUpdate)=>async(dispatch)=>{
     try {

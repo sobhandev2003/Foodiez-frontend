@@ -2,9 +2,9 @@ import Alert from "../component/Alert";
 import { setAddresses, setOrders } from "../fetures/buyer";
 
 import { setLoginAccountDetails } from "../fetures/loginFrtures";
-import { baseUrl } from "./baseUrl";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 //NOTE - register a new buyer account
+const baseUrl=process.env.REACT_APP_BASE_URL;
 export const registerBuyerAccount = async (buyerData, navigate) => {
     try {
 

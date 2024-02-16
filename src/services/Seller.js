@@ -3,7 +3,7 @@ import {  setLoginAccountDetails } from "../fetures/loginFrtures";
 import { createSller, setSellerOrder } from "../fetures/seller";
 
 import { fetchCurrentSellerCategory } from "./Catagory";
-import { baseUrl } from "./baseUrl";
+const baseUrl=process.env.REACT_APP_BASE_URL;
 //NOTE - fetch seller by id
 
 export const fetchSellerById=async(sellerId)=>{

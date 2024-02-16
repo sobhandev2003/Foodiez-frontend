@@ -1,5 +1,5 @@
 import { setSeller } from "../fetures/seller";
-import { baseUrl } from "./baseUrl";
+const baseUrl=process.env.REACT_APP_BASE_URL;
 
 export const searchSeller = (query) => async (dispatch) => {
     const {restaurantName,rating}=query

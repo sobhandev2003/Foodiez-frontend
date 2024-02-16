@@ -29,6 +29,7 @@ function App() {
      navigate("/")
     }
   }, [isLogin,navigate]);
+  console.log(".en",process.env.REACT_APP_BASE_URL);
   return (
     <div className="App">
 

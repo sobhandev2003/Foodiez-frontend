@@ -2,7 +2,7 @@ import Alert from "../component/Alert";
 import { getCatagory } from "../fetures/category";
 import { currentSellerCategory } from "../fetures/seller";
 
-import { baseUrl } from "./baseUrl";
+const baseUrl=process.env.REACT_APP_BASE_URL;
 //NOTE - fetch current seller category
 export const fetchCurrentSellerCategory = (sellerData) => async (dispatch) => {
     const id = sellerData.id;

@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { baseUrl } from "../services/baseUrl";
+const baseUrl=process.env.REACT_APP_BASE_URL;
 const fetchSeller = async (quary) => {
   try {
     const response = await fetch(`${baseUrl}/food/user/seller?restaurantName=${quary}`)

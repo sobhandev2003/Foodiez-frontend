@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import photo1 from '../photo/photo1.png';
+import photo1 from '../photo/photo1.webp';
 import { useDispatch, useSelector } from 'react-redux';
 import '../css/Home.css'
 import { FiEdit } from "react-icons/fi";

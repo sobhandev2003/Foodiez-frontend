@@ -1,5 +1,5 @@
 import React from 'react'
-import error_500_cb8336 from '../photo/error-500_cb8336.png'
+import error_500_cb8336 from '../photo/error-500_cb8336.webp'
 import { useNavigate } from 'react-router-dom'
 import '../css/Error.css'
 export default function Error({navigateTo , navigatePath}) {

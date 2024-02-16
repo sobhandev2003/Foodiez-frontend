@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import '../css/Home.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { searchSeller } from '../services/searchSellerReducers';
-import photo1 from '../photo/photo1.png';
+import photo1 from '../photo/photo1.webp';
 import ShopeList from '../component/ShopeList';
-import photo2 from '../photo/photo2.png';
+import photo2 from '../photo/photo2.webp';
 import { LuSearchX } from "react-icons/lu";
 function BuyerHomePage() {
   const dispatch = useDispatch()

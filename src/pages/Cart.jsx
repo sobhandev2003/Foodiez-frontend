@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../css/Cart.css';
-import cartImg from '../photo/cartimag.jpg';
+import cartImg from '../photo/cartimag.webp';
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import CartProducts from '../component/CartProducts';

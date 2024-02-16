@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/Footer.css';
-import logo from '../photo/logo.jpg';
+import logo from '../photo/logo.webp';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';

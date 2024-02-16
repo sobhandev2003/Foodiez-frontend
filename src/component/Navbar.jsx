@@ -1,7 +1,7 @@
 import '../css/Navbar.css';
 import React, { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import logo from '../photo/logo.jpg';
+import logo from '../photo/logo.webp';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCurrentSeller } from '../services/Seller';
 //Help icon

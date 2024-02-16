@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/PaymentForm.css'
-import paymentDoneIcon from '../photo/payment-done.png';
-import qrCode from '../photo/qr_code_barcode.jpg'
+import paymentDoneIcon from '../photo/payment-done.webp';
+import qrCode from '../photo/qr_code_barcode.webp'
 const PaymentForm = ({ isPaymentDone, setIsPaymentDone, paymentMethod }) => {
 
     const currentYear = new Date().getFullYear();

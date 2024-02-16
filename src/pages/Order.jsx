@@ -23,8 +23,11 @@ function Order() {
    buyerAuthToken && dispatch(fetchAllBuyerOrders(buyerAuthToken,orderStatus))
   }, [dispatch,sellerAuthToken,buyerAuthToken,orderStatus])
 
-  useEffect(() => {
-  }, [orders])
+
+
+ useEffect(() => {
+  setOrderStatus("")
+  }, [])
 
   useEffect(() => {
     setLoginAccount(loginAccountDetails)

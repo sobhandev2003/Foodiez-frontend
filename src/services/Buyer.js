@@ -91,7 +91,7 @@ export const fetchLoginBuyerDetails = (authToken) => async (dispatch) => {
 export const forgetBuyerAccountPassword = async (email, password, setIsForgotPassword) => {
     try {
 
-        const response = await fetch(`${baseUrl}/food/user/buyer//forget-password`, {
+        const response = await fetch(`${baseUrl}/food/user/buyer/forget-password`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
